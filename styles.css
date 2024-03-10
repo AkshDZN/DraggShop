@@ -114,3 +114,49 @@ body {
     padding: 3%;
     z-index: 700;
 }
+
+@media (max-width : 600px) {
+    .logoMain {
+        width: 50%;
+    }
+
+    .shopButton {
+        width: 130px;
+        height: auto;
+    
+        z-index: 500;
+    
+        transition: all cubic-bezier(0,.02,0,.99) 500ms;
+    }
+    
+    .shopButton:hover {
+        scale: 1.5;
+    }
+
+    .infos{
+        font-family: "Familjen Grotesk", sans-serif;
+        font-weight: 800;
+        font-size: 1rem;
+    }
+
+    .me {
+        font-family: "Familjen Grotesk", sans-serif;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+    
+    .meMore {
+        font-family: "Familjen Grotesk", sans-serif;
+        font-weight: 800;
+        font-size: 1rem;
+        opacity: 80%;
+    }
+    
+    .mebx {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        align-items: flex-end;
+    }
+    
+}
